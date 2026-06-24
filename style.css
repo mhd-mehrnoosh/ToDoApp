@@ -3,7 +3,9 @@
     text-align: center;
     padding: 20px;
     width: 400px;
+    height: 200px;
     background-color: white;
+    box-shadow: 5px 10px 15px #555;
 }
 body {
     display: flex;
@@ -12,9 +14,9 @@ body {
     height: 100vh;
     margin: 0;
     background: linear-gradient(
-        #1082c0,
-        #1363db,
-        #462ce9
+        #f3fafe,
+        #abccff,
+        #a0e2fe
     );
 }
 form {
@@ -33,28 +35,28 @@ header {
     border-radius: 5px;
     padding: 7px;
     width: 70px;
-    background-color: #4fb5ec;
+    background-color: #abccff;
     color: white;
     cursor: pointer;
 }
 .LiBtn {
     margin-top: 3px;
     border-radius: 5px;
-    background-color: #75c0f6;
+    background-color: #abccff;
     color: white;
     cursor: pointer;
 }
-.list {
-    position: absolute;
-    left: 20px;
-    top: 20px;
-}
+
 #divList {
+    position: absolute;
+    left:auto;
+    top: 50px;
     width: 500px;
     border-radius: 10px;
     padding: 10px;
     text-align: left;
     background:white;
+    box-shadow:  5px 10px 15px #555;
 }
 .divLi {
     display: flex;
