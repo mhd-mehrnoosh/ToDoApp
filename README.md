@@ -6,7 +6,7 @@ Add a new tasks
 Chek your tasks
 Edit or delete your past tasks
 
-#Technologies Used
+## Technologies Used
 HTML
 css
 JavaScript
