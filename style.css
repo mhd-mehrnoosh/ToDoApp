@@ -1,0 +1,62 @@
+.divAdd {
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+    background-color: white;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(
+        #1082c0,
+        #1363db,
+        #462ce9
+    );
+}
+form {
+    width: auto;
+}
+header {
+    align-items: center;
+}
+.input {
+    width: 70%;
+    border-radius: 5px;
+    padding: 10px;
+}
+.button {
+    align-items: center;
+    border-radius: 5px;
+    padding: 7px;
+    width: 70px;
+    background-color: #4fb5ec;
+    color: white;
+    cursor: pointer;
+}
+.LiBtn {
+    margin-top: 3px;
+    border-radius: 5px;
+    background-color: #75c0f6;
+    color: white;
+    cursor: pointer;
+}
+.list {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+#divList {
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    background:white;
+}
+.divLi {
+    display: flex;
+    justify-content:space-between;
+}
